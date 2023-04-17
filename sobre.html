@@ -1,0 +1,85 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha empresa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+        function mudaIcone(icone) {
+            document.getElementById("icone").src = icone;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="navbar">
+
+                <ul>
+                    <li onmouseover="mudaIcone('assets/home.png')" onmouseout="mudaIcone('assets/yuri2.png')"><a href="home.html">HOME </a></li>
+                    <li onmouseover="mudaIcone('assets/servicos.png')" onmouseout="mudaIcone('assets/yuri2.png')"><a href="serviços.html"> serviços</a></li>
+                    <li onmouseover="mudaIcone('assets/about.png')" onmouseout="mudaIcone('assets/yuri2.png')"><a href="sobre.html"> sobre</a></li>
+                    <li onmouseover="mudaIcone('assets/contact.png')" onmouseout="mudaIcone('assets/yuri2.png')"><a href="contato.html">contato</a></li>
+                    <img src="assets/yuri2.png" alt="" id="icone">
+
+
+
+                </ul>
+            </div>
+            <main>
+                <div class="texto">
+                    <h1>MEUS PROJETOS:</h1>
+                </div>
+                <div class="github">
+                    <i class="fa-brands fa-github fa-3x"></i>
+                    <p>GITHUB</p>
+                </div>
+
+                <div class="projeto">
+                    <div class="projeto1">
+                        <h2>PROJETO 1</h2>
+                        <img src="assets/pantera.png" alt="pantera">
+                        <p> PROJETO PANTERA NEGRA</p>
+                    </div>
+
+                    <div class="projeto1">
+                        <h2>PROJETO 2</h2>
+                        <img src="assetS/projet2.png" alt="projet2">
+                        <p> PROJETO SERVIÇOS</p>
+                    </div>
+                </div>
+
+            </main>
+
+
+
+</body>
+<footer>
+
+    <div>
+        <P> YURI HAYASHIDA //2023// POLITICA DE PRIVACIDADE</P>
+
+    </div>
+</footer>
+
+</html>
